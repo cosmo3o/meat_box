@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미트박스::NO.1 축산물 직거래플랫폼</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon.png">
+    <link rel="short icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/basic.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="top">
+            <div class="inner">
+                <div class="delivery_box fix">
+                    <div class="truck_icon">
+                        <img src="./imags/icon/truck_icon.png" alt="delivery_icon">
+                        <a>무료배송, 익일배송은 기본! 원하는 날 희망일 배송까지! 오후 10시까지 OK</a>
+                    </div>
+                    <div class="delivery_tit">
+                        <img src="./imags/icon/delivery.png" alt="free_delivery">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="header1">
+                <div class="inner">
+                    <div class="header1_box fix">
+                        <ul class="header1_left">
+                            <li>
+                                <div class="app_logo">
+                                    <a href="#">
+                                        <img src="./imags/icon/favicon-21.png" alt="app_logo">
+                                    </a>
+                                </div>
+                                <a href="#"><span class="red_dot">앱다운로드</span></a>
+                            </li>
+                            <li><a href="#"><span class="red_dot">미트박스 소개</span></a></li>
+                            <li><a href="#"><span class="red_dot">배송방법</span></a></li>
+                        </ul>
+                        <ul class="header1_right">
+                            <li><a href="#"><span class="red_dot">로그인</span></a></li>
+                            <li><a href="#"><span class="red_dot">회원가입</span></a></li>
+                            <li><a href="#"><span class="red_dot">마이페이지</span></a></li>
+                            <li><a href="#"><span class="red_dot">고객센터</span></a></li>
+                            <li><a href="#"><span class="red_dot">장바구니</span></a>
+                                <div class="cart_icon">
+                                    <a href="#"><img src="./imags/icon/cart.png" alt="shop_cart"></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header2">
+                <div class="inner">
+                    <div class="header2_box fix">
+                        <h1 class="logo">
+                            <a href="#"><img src="./imags/icon/main_logo.png" alt="mbox_logo"></a>
+                        </h1>
+                        <div class="search_bar">
+                            <input type="search" id="search">
+                            <label for="search"><img src="./imags/icon/search_fff.png" alt="search"></label>
+                        </div>
+                        <div class="new_coupon">
+                            <a href="#"><img src="./imags/header_coupon_1.png" alt="신규회원가입쿠폰"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ===================네비게이션 -->
+            <!-- =====================left -->
+            <nav>
+                <div class="inner">
+                    <div class="navi fix">
+                        <ul class="nav_ll fix">
+                            <li>
+                                <div class="time_sale">
+                                    <img src="./imags/icon/time_icon.png" alt="">
+                                </div>
+                                <a href="#"><span class="red_line">타임특가</span></a>
+                            </li>
+                            <li><a href="#"><span class="red_line">정육점추천</span></a></li>
+                            <li><a href="#"><span class="red_line">당당한돈</span></a></li>
+                            <li><a href="#"><span class="red_line">낱개상품</span></a></li>
+                            <li><a href="#"><span class="red_line">세절&분쇄</span></a></li>
+                            <li><a href="#"><span class="red_line">소량묶음</span></a></li>
+                        </ul>
+                        <!--======================right -->
+                        <ul class="nav_rr ">
+                            <li><a href="#"><span class="gray_line">식자재관</span></a></li>
+                            <li><a href="#"><span class="gray_line">땡처리</span></a></li>
+                            <li><a href="#"><span class="gray_line">대량특가</span></a></li>
+                        </ul>
+                        <!-- =======================햄버거 올메뉴 -->
+                        <div class="burger">
+                            <input type="checkbox" id="burger_btn">
+                            <label for="burger_btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+
+                            <div class="all_menu">
+                                <input type="checkbox" id="sub_btn">
+                                <div class="user_box">
+                                    <input type="radio" name="red_choice" id="red1">
+                                    <input type="radio" name="red_choice" id="red2">
+                                    <div class="on_l">
+                                        <label for="red1">사업자회원<span class="user1"></span></label>
+                                    </div>
+                                    <div class="on_r">
+                                        <label for="red2">일반회원<span class="user2"></span></label>
+                                    </div>
+                                </div>
+                                <ul class="sub_menu">
+                                    <li><a href="#">소고기<span class="in_arrow"></span></a>
+                                        <ul class="sub_1">
+                                            <li class="sub_tit">⦁ 소고기</li>
+                                            <li><a href="#"><span>한우</span></a></li>
+                                            <li><a href="#"><span>수입육우</span></a></li>
+                                            <li><a href="#"><span>양념육우</span></a></li>
+                                            <li><a href="#"><span>숙성육우</span></a></li>
+                                            <li><a href="#"><span>육우 세절&분쇄</span></a></li>
+                                            <li><a href="#"><span>소고기선물세트</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><label for="sub_btn"><a href="#">돼지고기<span class="in_arrow"></span></a></label>
+                                        <ul class="sub_2">
+                                            <li class="sub_tit">⦁ 돼지고기</li>
+                                            <li><a href="#"><span>한돈</span></a></li>
+                                            <li><a href="#"><span>수입돈</span></a></li>
+                                            <li><a href="#"><span>소분돈육</span></a></li>
+                                            <li><a href="#"><span>세절&분쇄육</span></a></li>
+                                            <li><a href="#"><span>양념돈육</span></a></li>
+                                            <li><a href="#"><span>돈육선물세트</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">닭 오리고기<span class="in_arrow"></span></a>
+                                        <ul class="sub_3">
+                                            <li class="sub_tit">⦁ 닭 오리고기</li>
+                                            <li><a href="#"><span>국산닭</span></a></li>
+                                            <li><a href="#"><span>수입닭</span></a></li>
+                                            <li><a href="#"><span>국산오리</span></a></li>
+                                            <li><a href="#"><span>수입오리</span></a></li>
+                                            <li><a href="#"><span>세절&분쇄</span></a></li>
+                                            <li><a href="#"><span>양념육</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">양고기<span class="in_arrow"></span></a>
+                                        <ul class="sub_4">
+                                            <li class="sub_tit">⦁ 양고기</li>
+                                            <li><a href="#"><span>수입양</span></a></li>
+                                            <li><a href="#"><span>소분 양</span></a></li>
+                                            <li><a href="#"><span>세절&분쇄 양</span></a></li>
+                                            <li><a href="#"><span>양고기 선물세트</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">소분상품<span class="in_arrow"></span></a>
+                                        <ul class="sub_5">
+                                            <li class="sub_tit">⦁소분 상품</li>
+                                            <li><a href="#"><span>육우소분</span></a></li>
+                                            <li><a href="#"><span>한우소분</span></a></li>
+                                            <li><a href="#"><span>돈육소분</span></a></li>
+                                            <li><a href="#"><span>한돈소분</span></a></li>
+                                            <li><a href="#"><span>수입양소분</span></a></li>
+                                            <li><a href="#"><span>양념육소분</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">세절&분쇄육<span class="in_arrow"></span></a>
+                                        <ul class="sub_6">
+                                            <li class="sub_tit">⦁소분 상품</li>
+                                            <li><a href="#"><span>육우소분</span></a></li>
+                                            <li><a href="#"><span>한우소분</span></a></li>
+                                            <li><a href="#"><span>돈육소분</span></a></li>
+                                            <li><a href="#"><span>한돈소분</span></a></li>
+                                            <li><a href="#"><span>수입양소분</span></a></li>
+                                            <li><a href="#"><span>양념육소분</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">육가공 양념육<span class="in_arrow"></span></a>
+                                        <ul class="sub_7">
+                                            <li class="sub_tit">⦁육가공 양념육</li>
+                                            <li><a href="#"><span>양념육우</span></a></li>
+                                            <li><a href="#"><span>양념돈육</span></a></li>
+                                            <li><a href="#"><span>양념계육</span></a></li>
+                                            <li><a href="#"><span>양념오리</span></a></li>
+                                            <li><a href="#"><span>양념육소분</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">농수산물<span class="in_arrow"></span></a>
+                                        <ul class="sub_8">
+                                            <li class="sub_tit">⦁농수산물</li>
+                                            <li><a href="#"><span>쌀.곡미</span></a></li>
+                                            <li><a href="#"><span>잎.줄기채소</span></a></li>
+                                            <li><a href="#"><span>과일</span></a></li>
+                                            <li><a href="#"><span>손질.냉동채소</span></a></li>
+                                            <li><a href="#"><span>어패류</span></a></li>
+                                            <li><a href="#"><span>수산물 가공</span></a></li>
+                                            <li><a href="#"><span>농수산물 선물세트</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">포장배달용품<span class="in_arrow"></span></a>
+                                        <ul class="sub_9">
+                                            <li class="sub_tit">⦁포장배달용품</li>
+                                            <li><a href="#"><span>트레이</span></a></li>
+                                            <li><a href="#"><span>용기</span></a></li>
+                                            <li><a href="#"><span>박스</span></a></li>
+                                            <li><a href="#"><span>비닐/봉투</span></a></li>
+                                            <li><a href="#"><span>잡화기타</span></a></li>
+                                            <li><a href="#"><span>선물포장재</span></a></li>
+                                            <li><a href="#"><span>실링/진공/랩제품</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">주방용품<span class="in_arrow"></span></a>
+                                        <ul class="sub_10">
+                                            <li class="sub_tit">⦁주방용품</li>
+                                            <li><a href="#"><span>정육점용품</span></a></li>
+                                            <li><a href="#"><span>칼/가위</span></a></li>
+                                            <li><a href="#"><span>연마제품</span></a></li>
+                                            <li><a href="#"><span>위생/안전용품</span></a></li>
+                                            <li><a href="#"><span>주방/매장기기</span></a></li>
+                                            <li><a href="#"><span>잡화/선물세트</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- ================메인슬라이드 -->
+        <section>
+            <article class="section1">
+                <div class="main_slide">
+                    <input type="radio" name="s_main" id="btn1" checked>
+                    <input type="radio" name="s_main" id="btn2">
+                    <input type="radio" name="s_main" id="btn3">
+
+                    <div class="slide_page">
+                        <div class="slide_on on1">
+                            <p class="p1 page_number">1/3</p>
+                            <span></span>
+                            <label for="btn3" class="p1 btn_l"></label>
+                            <label for="btn2" class="p1 btn_r"></label>
+                        </div>
+                        <div class="slide_on on2">
+                            <p class="p2 page_number">2/3</p>
+                            <span></span>
+                            <label for="btn1" class="p2 btn_l"></label>
+                            <label for="btn3" class="p2 btn_r"></label>
+                        </div>
+                        <div class="slide_on on3">
+                            <p class="p3 page_number">3/3</p>
+                            <span></span>
+                            <label for="btn2" class="p3 btn_l"></label>
+                            <label for="btn1" class="p3 btn_r"></label>
+                        </div>
+                    </div>
+                    <div class="main_src fix">
+                        <div class="src_img page_1">
+                            <a href="#">
+                                <img src="./imags/mbox_main_slide.jpg" alt="후기혜택">
+                            </a>
+                        </div>
+                        <div class="src_img page_2">
+                            <a href="#">
+                                <img src="./imags/mbox_sub_slide.jpg" alt="맞춤세절">
+                            </a>
+                        </div>
+                        <div class="src_img page_3">
+                            <a href="#">
+                                <img src="./imags/mbox_sub_slide2.jpg" alt="함박스테이크">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ===================슬라이드끝 -->
+            <!-- ==========================소식물 -->
+            <article class="section2">
+                <div class="inner">
+                    <div class="s2_box fix">
+                        <div class="content_left">
+                            <div class="c_l_src">
+                                <a href="#">
+                                    <img src="./imags/planning_exhibition_main.jpg" alt="exhibition main">
+                                </a>
+                            </div>
+                            <div class="pem_text">
+                                <a href="#">
+                                    <p>축산물 직거래 플랫폼 <strong><span>'미트박스'</span></strong><br>
+                                        <strong>"2020 올해의 브랜드 대상"</strong> 영예<br></p>
+                                    <p>소비자 여러분의 성원에 <strong>진심</strong>으로<strong> 감사드립니다.</strong></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content_right">
+                            <ul class="cont_r">
+                                <li>
+                                    <a href="#">
+                                        <div class="c_r_src c1">
+                                            <img src="./imags/dangdang_pig.png" alt="dangdang_pig">
+                                            <div class="cr_t">
+                                                <p class="dangdang1">미트박스라 믿음이 간다.<br>
+                                                    <span>당당한돈 출시</span> 전품목 세일중</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="c_r_src c2">
+                                            <img src="./imags/soso_meat.png" alt="soso_meat">
+                                            <div class="cr_t">
+                                                <div class="so_icon">
+                                                    <img src="./imags/soso_text.png" alt="">
+                                                </div>
+                                                <p>&nbsp#소량진공포장#소고기반찬</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="c_r_src c3">
+                                            <img src="./imags/high_bulgogi.png" alt="high_bulgogi">
+                                            <div class="cr_t">
+                                                <p><span>하이포크 육즙촉촉</span><br>
+                                                    <span>&nbsp집밥시리즈</span> #든든한한끼#단짠단짠</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="c_r_src c4">
+                                            <img src="./imags/tomahawk_meat.png" alt="tomahawk_meat">
+                                            <div class="cr_t">
+                                                <p><span>언제까지 구경만 할래~</span><br>
+                                                    &nbsp간편하게 토마호크 홈스테이크</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="mb_review fix">
+            <article class="section3_1">
+                <div class="min_inner">
+                    <div class="one_tit">
+                        <!-- 기업타이틀 -->
+                        <p>
+                            '합리적인 가격' '최상의품질' '최선'을 다하는 미트박스<br>다양한 상품들을 만나보세요.
+                        </p>
+                    </div>
+                    <!-- 베스트 -->
+                    <h3>이달의 Best</h3>
+                    <div class="mb_best_box fix">
+                        <button>더보기</button>
+                        <ul>
+                            <li><a href="#">
+                                    <div class="bk"></div>
+                                    <img src="./imags/Do_dram_Original.png" alt="도드람직화불곱창">
+                                    <div class="mb_text">
+                                        <p>
+                                            [도드람]본래직화불곱창<br>
+                                            (200g*6팩)<br>
+                                            box당 28,700원
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            </li>
+                            <li><a href="#">
+                                    <div class="bk"></div>
+                                    <img src="./imags/thegogi_Jeju_pig.png" alt="더고기제주돈주물럭">
+                                    <div class="mb_text">
+                                        <p>[더고기]제주돼지 돈주물럭<br>
+                                            4.8kg(200g*6팩)<br>
+                                            box당 31,900원
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <div class="bk"></div>
+                                    <img src="./imags/Hypok_bulgogi.png" alt="하이포크육즙촉촉불고기">
+                                    <div class="mb_text">
+                                        <p>
+                                            [하이포크] 육즙촉촉 불고기<br>
+                                            2.4kg(200g*6팩)<br>
+                                            box당 42,900원
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <div class="bk"></div>
+                                    <img src="./imags/doldol_i_samgyeob.png" alt="돌돌이삼겹양지">
+                                    <div class="mb_text">
+                                        <p>
+                                            [돌돌이]삼겹양지 - 미국<br>
+                                            EXCEL CUT 언그레이드<br>
+                                            2kg(*5ea/2mm)<br>
+                                            box당 10,900원
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="section3_2">
+                <div class="photo_review_box fix">
+                    <div class="inner">
+                        <h3>Photo review</h3>
+                        <button class="more">더보기</button>
+                        <ul>
+                            <li class="review_border">
+                                <div class="review_src">
+                                    <div class="bk"></div>
+                                    <div class="review_img">
+                                        <img src="./imags/reviews_1.png" alt="review_1">
+                                    </div>
+                                    <div class="star">
+                                        <img src="./imags/star_4.png" alt="star_4">
+                                    </div>
+                                    <div class="rt_box">
+                                        <p>rudf**</p>
+                                        <p class="p_info">21.04.13</p>
+                                    </div>
+                                    <div class="rt_text">
+                                        <div class="min_img">
+                                            <img src="./imags/reviews_2_1.png" alt="reviews_1_1">
+                                        </div>
+                                        <p>[돌돌이] 차돌양지-호..<br>
+                                            <span>리뷰 1,760 평점 4.5</span></p>
+                                    </div>
+                                </div>
+                                <div class=""></div>
+                            </li>
+                            <li class="review_border">
+                                <div class="review_src">
+                                    <div class="review_img">
+                                        <div class="bk"></div>
+                                        <img src="./imags/reviews_2.png" alt="review_1">
+                                    </div>
+                                    <div class="star">
+                                        <img src="./imags/star_4.png" alt="star_4">
+                                    </div>
+                                    <div class="rt_box">
+                                        <p>wilr6**</p>
+                                        <p class="p_info">21.04.22</p>
+                                    </div>
+                                    <div class="rt_text">
+                                        <div class="min_img">
+                                            <img src="./imags/reviews_2_1.png" alt="reviews_1_1">
+                                        </div>
+                                        <p>[소량&세절]삼겹살 7..<br>
+                                            <span>리뷰 1,367 평점 3.9</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="review_border">
+                                <div class="review_src">
+                                    <div class="bk"></div>
+                                    <div class="review_img">
+                                        <img src="./imags/reviews_3.png" alt="review_1">
+                                    </div>
+                                    <div class="star">
+                                        <img src="./imags/star_4.png" alt="star_4">
+                                    </div>
+                                    <div class="rt_box">
+                                        <p>airbb1**</p>
+                                        <p class="p_info">21.03.12</p>
+                                    </div>
+                                    <div class="rt_text">
+                                        <div class="min_img">
+                                            <img src="./imags/reviews_3_1.png" alt="reviews_1_1">
+                                        </div>
+                                        <p>[스테이커스] 양갈비세..<br>
+                                            <span>리뷰 567 평점 4.0</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="review_border">
+                                <div class="review_src">
+                                    <div class="review_img">
+                                        <div class="bk"></div>
+                                        <img src="./imags/reviews_4.png" alt="review_1">
+                                    </div>
+                                    <div class="star">
+                                        <img src="./imags/star_4.png" alt="star_4">
+                                    </div>
+                                    <div class="rt_box">
+                                        <p>rudf**</p>
+                                        <p class="p_info">20.04.13</p>
+                                    </div>
+                                    <div class="rt_text">
+                                        <div class="min_img">
+                                            <img src="./imags/reviews_4_1.png" alt="reviews_1_1">
+                                        </div>
+                                        <p>[등갈비/백립]- 미국 엑..<br>
+                                            <span>리뷰 1,260 평점 4.5</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="review_border">
+                                <div class="review_src">
+                                    <div class="bk"></div>
+                                    <div class="review_img">
+                                        <img src="./imags/reviews_5.png" alt="review_1">
+                                    </div>
+                                    <div class="star">
+                                        <img src="./imags/star_4.png" alt="star_4">
+                                    </div>
+                                    <div class="rt_box">
+                                        <p>wltjs6**</p>
+                                        <p class="p_info">20.04.01</p>
+                                    </div>
+                                    <div class="rt_text">
+                                        <div class="min_img">
+                                            <img src="./imags/reviews_2_1.png" alt="reviews_1_1">
+                                        </div>
+                                        <p>[소량&세절] 삼겹살 7..<br>
+                                            <span>리뷰 1,367 평점 3.9</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- 판매상품 1번째줄 -->
+        <section>
+            <article class="section4 fix">
+                <div class="inner">
+                    <input type="radio" name="tab_btn" id="btn_1" checked>
+                    <input type="radio" name="tab_btn" id="btn_2">
+                    <input type="radio" name="tab_btn" id="btn_3">
+                    <input type="radio" name="tab_btn" id="btn_4">
+                    <input type="radio" name="tab_btn" id="btn_more">
+                    <ul>
+                        <li>
+                            <div class="all_tab tab_1 fix">
+                                <ul class="all_meat fix">
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_1.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입돈#원물</span><br>
+                                                등갈비/백립-미국엑셀(86M)-셀렉트</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,280원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입돈#원물</span><br>
+                                                삼겹살-덴마크 대니쉬크라운</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,630원 <span>재고18박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.0/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_3.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입소#세절&분쇄</span><br>
+                                                부채살 15mm-미국(엑셀-초이스)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 15,200원 <span>재고2박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="imags/box_1_4.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#수입양#선물세트#세절</span><br>
+                                                [선물세트]양갈비 프렌치랙1kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 13,290원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <!-- ================2번째줄시작 -->
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="imags/box_1_5.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육우거세#소분</span><br>
+                                                [더육우][낱개]우족-국산3등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">1팩당 4,000원 <span>소분포장</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_6.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#한돈#원물</span><br>
+                                                [우량한돈] 안심-국산</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 7,300원 <span>재고4박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.8/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_7.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#한돈#원물</span><br>
+                                                [J&J보성녹돈]안심-국산</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,280원 <span>재고18박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_8.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육우거세#소분</span><br>
+                                                [더육우][낱개상품]잡뼈-국산</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">1팩 3,000원 <span>소분포장</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_9.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#수입소#원물</span><br>
+                                                [카라라]목심-호주 와규(640)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 12,000원 <span>재고20박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_10.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입소#원물</span><br>
+                                                [카라라]홍두깨-호주 와규(640)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 14,500원 <span>재고3박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_11.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육우거세#소분</span><br>
+                                                [낱개상품]꼬리 - 국산3등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 4,000원 <span>수량주문</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_12.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입돈#원물</span><br>
+                                                [우드워드]프렌치드렉(갈비) - 호주</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 39,000원 <span>재고3박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_tab tab_2 fix">
+                                <ul class="all_meat fix">
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_1.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#국산계육#세절</span><br>
+                                                닭윙(닭날개) 10kg-국산 마니커</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,990원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.5/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                통살 큐브치킨 500g*5팩</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,250원 <span>재고7박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.2/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_3.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#국산오리#원물</span><br>
+                                                통오리-국산-1등급(2kg*4ea)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,250원 <span>재고50박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_4.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#양념계육#양념</span><br>
+                                                [수월한]불닭 2.4kg(480g*5ea)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,250원 <span>재고11박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <!-- ================2번째줄시작 -->
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_5.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#국산오리#원물</span><br>
+                                                통오리-국산-1등급(2kg*4ea)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,250원 <span>재고50박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_6.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#양념육#양념</span><br>
+                                                [마니커] 옛날치킨1+1</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,800원 <span>재고3박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_7.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#양념육#양념</span><br>
+                                                푸드그램 백석동 양념닭갈비4kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 10,290원<span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_8.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                닭목살 튀김 500g*10팩</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 12,900원 <span>재고5박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.7/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_9.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#육가공품#육계</span><br>
+                                                [국내산]냉장 닭봉(35-45g)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 11,630원 <span>재고31박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.5/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_10.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                [수월한]라이스치킨(가슴살) 2kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 14,980원 <span>재고10박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_11.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#육가공품#훈제</span><br>
+                                                [흑마늘숙성]훈제삼겹슬라이스-2kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 30,000원 <span>재고4박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_12.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입돈#원물</span><br>
+                                                등갈비/백립-미국엑셀(86M)-셀렉트</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,280원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_tab tab_3 fix">
+                                <ul class="all_meat tab_1 fix">
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_1.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                바사삭오리 460g*3ea</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 13,200원 <span>수량주문</span></p>
+                                            <div class="star2">
+                                                <a><img src="imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                진푸드 수제등심돈까스 7.8kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 12,230원 <span>재고9박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_8.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                닭목살 튀김 500g*10팩</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 11,490원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_4.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입돈#원물</span><br>
+                                                등갈비/백립-미국엑셀(86M)-셀렉트</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,280원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <!-- ================2번째줄시작 -->
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_5.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                진푸드 수제등심돈까스 7.8kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 12,230원 <span>재고9박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_6.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                진푸드 수제치즈돈까스 7.2kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 14,230원 <span>재고3박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_7.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                [수월한] 텐더스틱 10kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 13,000원 <span>재고8박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.3/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                통살 큐브치킨 500g*5팩</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 9,250원 <span>재고7박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.2/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_2_10.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                대림 치킨 텐더스틱 5kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 11,300원 <span>재고11박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육가공품#가공</span><br>
+                                                진푸드 수제등심돈까스 7.8kg</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 12,230원 <span>재고9박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_11.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#가공식품#가공</span><br>
+                                                [푸딩팩토리]핫치킨&쉬림프 피자360g</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 7,890원 <span>재고50박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_3_12.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#한우암소#소분</span><br>
+                                                페퍼로니 시카고피자 370g*10팩</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,060원 <span>재고10박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">4.6/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_tab tab_4 fix">
+                                <ul class="all_meat tab_1 fix">
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_1.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#수입소#세절</span><br>
+                                                [더육우]부채살 300g - 국산2등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 63,333원 <span>재고13박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_2.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#수입소#세절</span><br>
+                                                [더육우]갈비살모둠1.5kg - 국산3등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 70,000원 <span>재고8박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.6/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_3.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입소#세절</span><br>
+                                                부채살 15mm - 미국(엑셀-초이스)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 15,200원 <span>재고42박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.5/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_11.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육우거세#소분</span><br>
+                                                [낱개상품]꼬리 - 국산 3등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 4,000원 <span>소량상품</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <!-- ================2번째줄시작 -->
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_1_8.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#육우거세#소분</span><br>
+                                                [더육우]잡뼈 - 국산3등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 2,000원 <span>소량상품</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_6.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입소#세절</span><br>
+                                                알전각/볼라전각2mm - 미국</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 11,880원 <span>재고11박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_7.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수입소#원물</span><br>
+                                                등갈비/백립-미국엑셀(RRA/앵거스)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 8,790원 <span>재고21박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_8.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#한우거세#소분</span><br>
+                                                [낱개상품]꾸리살 - 국산2등급</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">kg당 32,000원 <span>재고34박스</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_9.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#실온#농산물#원물</span><br>
+                                                국내산 케일(1kg) 5월 특가</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">ea당 5,910원 <span>재고한정</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_10.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#실온#농산물#원물</span><br>
+                                                국내산 적상추(4kg) 5월 특가</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">box당 16,500원 <span>재고한정</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_11.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉장#농산물#원물</span><br>
+                                                [자연농산] 콩나물 (1kg)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">ea당 2,000원 <span>수량주문</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                    <li class="mbox m_z">
+                                        <div class="mbox_img">
+                                            <img src="./imags/box_4_12.png" alt="pork_belly">
+                                        </div>
+                                        <!-- 태그는 작게 -->
+                                        <div class="mbox_text">
+                                            <p class="bottem_line"><span>#냉동#수산물#원물</span><br>
+                                                냉동 생 바지락 6kg(600g X10)</p>
+                                            <!-- 회색라인 -->
+                                            <p class="red_sell">box당 25,000원 <span>수량주문</span></p>
+                                            <div class="star2">
+                                                <a><img src="./imags/icon/star.png" alt="star">3.9/5 <img
+                                                        src="./imags/icon/ht.png" alt="heart"></a>
+                                            </div>
+                                        </div>
+                                        <p class="free_del">무료배송</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                    <ul class="tab_number">
+                        <li>
+                            <label for="btn_1">1</label>
+                        </li>
+                        <li>
+                            <label for="btn_2">2</label>
+                        </li>
+                        <li>
+                            <label for="btn_3">3</label>
+                        </li>
+                        <li>
+                            <label for="btn_4">4</label>
+                        </li>
+                        <li>
+                            <label for="btn_more">></label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =================여기까지가 3탭 -->
+                <div class="ad_img inner">
+                    <a href="#">
+                        <img src="./imags/sub_main_img.jpg" alt="banner">
+                    </a>
+                </div>
+            </article>
+        </section>
+        <!-- ================notice================= -->
+        <section>
+            <article class="section5">
+                <div class="inner">
+                    <ul class="notice_info fix">
+                        <li class="system_box">
+                            <!-- =======market price======== -->
+                            <h4>시장동향</h4>
+                            <p>
+                                <a href="https://m.blog.naver.com/globalnetworks/221584001948" target="_blank" rel="noopener"><span>도매시세</span>></a>
+                            </p>
+                            <ul class="market_price">
+                                <li>
+                                    <a href="#"><span class="circle_f"></span>[시장현황] 2021.04.09 축산물 시세 및 현황..</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="circle_f"></span>[시장현황] 2021.03.28 축산물 시세 및 현황..</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="circle_f"></span>[시장현황] 2021.03.20 축산물 시세 및 현황..</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="circle_f"></span>[시장현황] 2021.03.14 축산물 시세 및 현황..</a>
+                                </li>
+                                <li>
+                                    <a href="#"><span class="circle_f"></span>[시장현황] 2021.03.10 축산물 시세 및 현황..</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="system_box s_z">
+                            <h4>자주묻는 질문</h4>
+                            <p><a href="#">></a></p>
+                            <ul class="fap">
+                                <li><a href="#"><span class="circle_f"></span>회원/정보관리</a></li>
+                                <li><a href="#"><span class="circle_f"></span>주문결제</a></li>
+                                <li><a href="#"><span class="circle_f"></span>포인트/상품</a></li>
+                                <li><a href="#"><span class="circle_f"></span>쿠폰등록</a></li>
+                                <li><a href="#"><span class="circle_f"></span>오류해결</a></li>
+                            </ul>
+                        </li>
+                        <li class="system_box">
+                            <h4>공지사항</h4>
+                            <p><a href="#">></a></p>
+                            <ul class="notice">
+                                <li><a href=""><a href=""><span class="circle_f"></span>[New]미트박스-삼성카드,업무제휴 협약 체결..</a>
+                                </li>
+                                <li><a href=""><span class="circle_f"></span>메이어 후기 당첨자 발표</a></li>
+                                <li><a href=""><span class="circle_f"></span>3월 28알(일) 새벽서비스 점검 안내</a></li>
+                                <li><a href=""><span class="circle_f"></span>(주)엠렉하우스 낱개 수입육 임시 판매중단안내</a></li>
+                                <li><a href=""><span class="circle_f"></span>주문 마감 '5시<strong>→</strong>10시로 연장' 고객 편의
+                                        배송..</a></li>
+                                <li><a href=""><span class="circle_f"></span>(주)엠렉하우스 전반기 수입 마감 안내</a></li>
+                            </ul>
+                        </li>
+                        <li class="system_box s_z">
+                            <h4>공식 유튜브</h4>
+                            <p><a href="#">></a></p>
+                            <ul class="mbox_tv">
+                                <li><span class="circle_f"></span><a href="https://youtu.be/6Je8M3ZU8MQ" target="_blank" rel="noopener">[미트TV]2021. 4.
+                                        16 "미트매치" Open!</a> </li>
+                                <li><span class="circle_f"></span><a href="https://youtu.be/wnl6GmYpDiE" target="_blank" rel="noopener">[미트TV]2017. 10.
+                                        17 공식 홍보영상</a></li>
+                                <li><span class="circle_f"></span><a href="https://youtu.be/0zuC7tRkmT4" target="_blank" rel="noopener">[미트TV]2017. 10.
+                                        17 "유통구조의 혁명!"</a>
+                                <li><span class="circle_f"></span><a href="https://youtu.be/FDPkFSJlSFA" target="_blank" rel="noopener">[미트TV]2017. 10.
+                                        16 "사장님들의 리얼후기"</a>
+                                </li>
+                            </ul>
+                            <ul class="mbox_tv2 fix">
+                                <li>
+                                    <a href="https://www.youtube.com/watch?v=6Je8M3ZU8MQ" target="_blank" rel="noopener">
+                                        <img src="imags/icon/mbox_tv_footer2.png" alt="mbox_tv">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCBsRC2BjY5V7_tP9U5FXrxA" target="_blank" rel="noopener">
+                                        <img src="imags/icon/youtube_footer2.png" alt="youtube">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <!-- ///////////////////////////////////////팝업 -->
+        <input type="checkbox" id="pop_btn" alt="포폴팝업">
+        <div class="wrap_pop">
+            <div class="pop_box">
+                <label for="pop_btn">확인</label>
+                <p>본 홈페이지는<br>
+                    <span>"개인 포트폴리오 용도"</span>이며,<br>
+                    html, css만으로 제작되었습니다.</p>
+                <span>햄버거메뉴바, 슬라이드, 탭기능, pop 등이<br> 구현되어있습니다.</span>
+            </div>
+        </div>
+        <!-- ---------사이드바 좌측 -->
+        <aside class="on_pop1">
+            <input type="checkbox" id="l_pop_btn">
+            <div class="l_pop_box">
+                <label for="l_pop_btn" class="close1">
+                    <img src="./imags/icon/close-2.png">
+                </label>
+                <div class="side_coupon">
+                    <a href="#">
+                        <img src="./imags/side_coupon.png" alt="side_coupon">
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <!-- ---------사이드바 우측 -->
+        <aside class="right_pop">
+            <img src="./imags/side_bar_1.jpg" alt="side_bar">
+        </aside>
+        <!-- /////////////////////////////////////////// -->
+        <footer>
+            <div class="inner">
+                <ul class="footer_map">
+                    <li><a href="#">회사소개<span class="g_line"></span></a></li>
+                    <li><a href="#">입점제휴문의<span class="g_line"></span></a></li>
+                    <li><a href="#">모바일APP<span class="g_line"></span></a></li>
+                    <li><a href="#">이용약관<span class="g_line"></span></a></li>
+                    <li><a href="#">판매회원 이용약관<span class="g_line"></span></a></li>
+                    <li><a href="#">이메일 무단수집거부<span class="g_line"></span></a></li>
+                    <li><a href="#">개인정보 취급방침</a></li>
+                </ul>
+            </div>
+            <div class="f_bg">
+                <ul class="f_info fix">
+                    <li>
+                        <div class="f_box business">
+                            <h4>(주)글로벌 네트웍스</h4>
+                            <!-- line넣기 -->
+                            <p>사업자 등록번호 129-86087864<br>
+                                대표이사:김기봉<br>
+                                주소:경기도 성남시 중원구 양현로</br>
+                                405번길 12 (티엘아이빌딩 4층)</br>
+                                <p><span>통신판매업신고:제 2019-성남중원0091호<br>
+                                        NICEPAY 구매안전서비스 : 고객님 안전거래를<br>
+                                        위해 현금 결제 시 저희 쇼핑몰이 가입한 에스크로<br>
+                                        (구매안전서비스)를 이용하실 수 있습니다.<br>
+                                        개인정보관리책임자:김석현 lgmiksh@gbnet.kr</span>
+                                </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f_box service fix">
+                            <h4>고객센터</h4>
+                            <!-- line넣기 -->
+                            <p>
+                                ⦁Tel:1644 - 6689<br>
+                                <span>평일:09:00 ~ 19:00<br>
+                                    토요일:09:00 ~13:00<br>
+                                    (일요일/공휴일 휴무)</span></p>
+                            <h5>전자금융거래분쟁처리담당</h5>
+                            <p>⦁Tel:1644-6689<br>
+                                <span>Fax:031-759-8090<br>
+                                    Mail:meatbox@gnbnet.kr</span>
+                            </P>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="f_box Social">
+                            <h4>공식 sns바로가기</h4>
+                            <ul class="s_icon">
+                                <li><a href="https://blog.naver.com/globalnetworks" target="_blank" rel="noopener"><img src="./imags/icon/naver_logo.png"
+                                            alt="icon"></a></li>
+                                <li><a href="https://pf.kakao.com/_xbSyml" target="_blank" rel="noopener"><img src="./imags/icon/naver_logo2.png"
+                                            alt="icon"></a></li>
+                                <li><a href="https://www.instagram.com/meatbox_official/" target="_blank" rel="noopener"><img
+                                            src="./imags/icon/instar_logo.png" alt="icon"></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCBsRC2BjY5V7_tP9U5FXrxA" target="_blank" rel="noopener"><img
+                                            src="./imags/icon/youtube_logo.png" alt="icon"></a></li>
+                                <li><a href="https://www.facebook.com/meatbox.co.kr" target="_blank" rel="noopener"><img
+                                            src="./imags/icon/facebook_logo.png" alt="icon"></a></li>
+                            </ul>
+                            <ul class="s_company">
+                                <li><a href="#"><img src="./imags/icon/mbox_tv_footer.png" alt="mbox_tv"></a></li>
+                                <li><a href="#"><img src="./imags/icon/g_footer.png" alt="g_footer"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="out_last">
+                    <div class="out_last_text">
+                        <p>(주)글로벌네트웍스의 사전동의없이 미트박스 사이트 내 ui정보 콘텐츠의 무단 전재 복사 스크랩 배포를 금합니다.<br>
+                            미트박스는 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 미트박스는 상품 거래정보 및 거래에 대하여 책임지지 않습니다.</p>
+                    </div>
+                    <div class="out_last_line">
+                        <p>ⓒMEAT BOX All rigth reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
